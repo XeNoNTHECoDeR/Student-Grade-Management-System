@@ -7,7 +7,7 @@ public class DatabaseManager {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
             conn = DriverManager.getConnection(
-                "jdbc:mysql://localhost:3306/studentdb", "root", "your_password_here");
+                "jdbc:mysql://localhost:3306/studentdb", "root", "20042002");
         } catch (Exception e) {
             e.printStackTrace();
         }
