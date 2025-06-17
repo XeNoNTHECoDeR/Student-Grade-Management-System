@@ -19,3 +19,4 @@ CREATE TABLE students (
     marks INT,
     grade VARCHAR(2)
 );
+GUI fully functional. JDBC integration under debugging. Issue identified with MySQL connector or credentials. Logs and error handlers added to resolve connectivity
